@@ -61,13 +61,13 @@ const Home = () => {
 
             <div className="h-12 mb-6">
               <h2 className="text-2xl md:text-3xl text-gray-300 text-center overflow-hidden whitespace-nowrap border-r-4 border-indigo-500 pr-1 animate-typing">
-                Computer Science Student | Aspiring Web Developer
+                Full stack software developer
               </h2>
             </div>
 
             <p className="max-w-2xl text-gray-300 text-lg mb-10 text-center leading-relaxed mx-auto">
-              I am a Computer Science and Engineering student passionate about
-              web development, problem solving, and building useful digital
+              I am a Software developer passionate about
+              software development, problem solving, and building useful digital
               solutions. I enjoy learning modern technologies and applying them
               to practical projects that create real impact.
             </p>
@@ -202,50 +202,47 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="lg:col-span-3 space-y-8">
-                <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
-                  <h3 className="text-2xl font-semibold text-blue-400 mb-4">
-                    My Journey
-                  </h3>
+              <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
+  <h3 className="text-2xl font-semibold text-blue-400 mb-4">
+    My Journey
+  </h3>
 
-                  <p className="text-lg mb-4 leading-relaxed text-gray-200">
-                    Hello! I'm{" "}
-                    <span className="font-semibold text-purple-400">
-                      Herman Magayane
-                    </span>
-                    , a Computer Science student with a strong interest in web
-                    development and software creation.
-                  </p>
+  <p className="text-lg mb-4 leading-relaxed text-gray-200">
+    Hello! I'm{" "}
+    <span className="font-semibold text-purple-400">
+      Herman Magayane
+    </span>
+    , a software developer with strong interest and experience in web
+    development and software creation.
+  </p>
 
-                  <p className="text-lg mb-4 leading-relaxed text-gray-300">
-                    My training and projects have helped me build a solid
-                    foundation in programming languages such as C++, Python, C,
-                    Java, and JavaScript, along with web technologies like HTML,
-                    CSS, React.js, and MySQL.
-                  </p>
+  <p className="text-lg mb-4 leading-relaxed text-gray-300">
+    I work with programming languages such as C++, Python, C, Java, and
+    JavaScript, along with web technologies like HTML, CSS, React.js,
+    and MySQL to build responsive and user-focused applications.
+  </p>
 
-                  <p className="text-lg leading-relaxed text-gray-300">
-                    I have worked on projects including a real-time weather app,
-                    an art and assets e-commerce website, and a network setup
-                    and topology design project. I enjoy learning by building,
-                    solving problems, and continuously improving my technical
-                    and soft skills.
-                  </p>
-                </div>
+  <p className="text-lg leading-relaxed text-gray-300">
+    My work includes projects such as a real-time weather application,
+    an art and assets e-commerce website, and a network setup and topology
+    design project. I enjoy building practical solutions, improving user
+    experiences, and continuously strengthening both my technical and
+    problem-solving skills.
+  </p>
+</div>
 
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
-                  <h3 className="text-2xl font-semibold text-blue-400 mb-4">
-                    My Approach
-                  </h3>
+  <h3 className="text-2xl font-semibold text-blue-400 mb-4">
+    My Approach
+  </h3>
 
-                  <p className="text-lg text-gray-300">
-                    I believe in combining technical knowledge with adaptability,
-                    teamwork, communication, and problem-solving to create
-                    meaningful digital solutions. My goal is to keep growing as
-                    a developer while contributing to projects that are useful,
-                    practical, and impactful.
-                  </p>
-                </div>
+  <p className="text-lg text-gray-300">
+    I approach development with a focus on clean code, adaptability,
+    teamwork, communication, and problem-solving. My goal is to build
+    useful, efficient, and impactful digital solutions while continuously
+    growing as a developer.
+  </p>
+</div>
               </div>
             </div>
           </div>
