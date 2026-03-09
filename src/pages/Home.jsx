@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profileImage from "../assets/Herman.jpeg";
+import profileImage from "../assets/Herman1.jpeg";
 
 const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
