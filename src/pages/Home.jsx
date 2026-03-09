@@ -59,7 +59,7 @@ const Home = () => {
 
             <div className="h-12 mb-6">
               <h2 className="text-2xl md:text-3xl text-gray-300 text-center overflow-hidden whitespace-nowrap border-r-4 border-indigo-500 pr-1 animate-typing">
-                Software Developer | Web Developer
+                Full stack software developer
               </h2>
             </div>
 
