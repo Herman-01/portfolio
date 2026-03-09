@@ -476,7 +476,7 @@ export default Home;      </div>
           </div>
         </section>
 
-        <div className="flex justify-center pb-16">
+                <div className="flex justify-center pb-16">
           <a
             href="/projects"
             className="flex flex-col items-center text-gray-400 hover:text-white transition-colors"
