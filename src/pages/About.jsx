@@ -4,11 +4,7 @@ const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   
   // Personal interests/hobbies with icons
-  const interests = [
-    { name: "Surfing Web", icon: "💻" },
-    { name: "Reading", icon: "📚" },
-    { name: "Music", icon: "🎵" }
-  ];
+ 
 
   useEffect(() => {
     setIsVisible(true);
