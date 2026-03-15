@@ -189,7 +189,7 @@ const Contact = () => {
                         href="tel:+918437173767" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        +91-8437173766
+                        +91-8437173767
                       </a>
                     </div>
                   </div>
