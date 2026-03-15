@@ -103,25 +103,7 @@ const About = () => {
                 projects and keeping up with emerging technologies.
               </p>
             </div>
-            
-            {/* What I enjoy */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
-              <h2 className="text-2xl font-semibold text-blue-400 mb-6">When I'm Not Coding</h2>
-              
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {interests.map((interest, index) => (
-                  <div 
-                    key={index} 
-                    className="bg-slate-700/50 rounded-lg p-4 flex flex-col items-center text-center hover:bg-indigo-900/30 transition-colors duration-300"
-                    style={{ animationDelay: `${index * 0.1}s` }}
-                  >
-                    <span className="text-3xl mb-2">{interest.icon}</span>
-                    <span className="text-gray-200">{interest.name}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
+           
             {/* Philosophy/Approach */}
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
               <h2 className="text-2xl font-semibold text-blue-400 mb-4">My Approach</h2>
