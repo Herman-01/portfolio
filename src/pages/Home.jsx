@@ -186,7 +186,7 @@ const Home = () => {
                   <p className="text-lg mb-4 leading-relaxed text-gray-200">
                     Hello! I'm{" "}
                     <span className="font-semibold text-purple-400">
-                      Herman Magayane
+                      Herman Magaya
                     </span>
                     , a software developer with strong interest and experience
                     in web development and software creation.
