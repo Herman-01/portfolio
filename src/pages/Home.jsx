@@ -45,7 +45,7 @@ const Home = () => {
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden relative z-10 hover:scale-105 transition-transform duration-300 shadow-lg border border-indigo-400/30">
                 <img
                   src={profileImage}
-                  alt="Herman Magaya"
+                  alt="Herman Magayane"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -53,7 +53,7 @@ const Home = () => {
 
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400">
-                Herman Magayane
+                Herman Magaya
               </span>
             </h1>
 
