@@ -49,7 +49,7 @@ const Home = () => {
 
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400">
-                Herman Magayane
+                Herman Magaya
               </span>
             </h1>
 
