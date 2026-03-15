@@ -5,22 +5,24 @@ const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const skills = {
-    ProgrammingLanguages: [
-      { name: "C", icon: "/icons/c.png", proficiency: 75 },
-      { name: "C++", icon: "/icons/cpp.png", proficiency: 85 },
-      { name: "Java", icon: "/icons/java.png", proficiency: 80 },
-      { name: "Python", icon: "/icons/python.png", proficiency: 85 },
-      { name: "JavaScript", icon: "/icons/javascript.png", proficiency: 80 },
-    ],
-    Frontend: [
-      { name: "HTML", icon: "/icons/html.png", proficiency: 90 },
-      { name: "CSS", icon: "/icons/css.png", proficiency: 85 },
-      { name: "React.js", icon: "/icons/react.png", proficiency: 85 },
-    ],
-    Databases: [
-      { name: "MySQL", icon: "/icons/mysql.png", proficiency: 80 },
-    ],
-  };
+  ProgrammingLanguages: [
+    { name: "C", icon: "/icons/c.png", proficiency: 70 },
+    { name: "C++", icon: "/icons/cpp.png", proficiency: 78 },
+    { name: "Java", icon: "/icons/java.png", proficiency: 72 },
+    { name: "Python", icon: "/icons/python.png", proficiency: 75 },
+    { name: "JavaScript", icon: "/icons/javascript.png", proficiency: 82 },
+  ],
+
+  Frontend: [
+    { name: "HTML", icon: "/icons/html.png", proficiency: 82 },
+    { name: "CSS", icon: "/icons/css.png", proficiency: 82 },
+    { name: "React.js", icon: "/icons/react.png", proficiency: 81 },
+  ],
+
+  Databases: [
+    { name: "MySQL", icon: "/icons/mysql.png", proficiency: 71 },
+  ],
+};
 
   useEffect(() => {
     setIsVisible(true);
