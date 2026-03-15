@@ -47,7 +47,7 @@ const Home = () => {
 
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400">
-                Herman Magaya
+                Herman Magayane
               </span>
             </h1>
 
@@ -182,7 +182,7 @@ const Home = () => {
                   <p className="text-lg mb-4 leading-relaxed text-gray-200">
                     Hello! I'm{" "}
                     <span className="font-semibold text-purple-400">
-                      Herman Magaya
+                      Herman Magayane
                     </span>
                     , a software developer with strong interest and experience
                     in web development and software creation.
