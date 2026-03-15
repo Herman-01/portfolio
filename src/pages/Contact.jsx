@@ -171,7 +171,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">Email</h4>
                       <a 
-                        href="mailto:divyanshuvats1006@gmail.com" 
+                        href="mailto:magayaneherman@gmail.com" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
                         magayaneherman@gmail.com
@@ -186,7 +186,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">Phone</h4>
                       <a 
-                        href="tel:+918278478622" 
+                        href="tel:+918437173767" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
                         +91-8437173767
@@ -201,7 +201,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">LinkedIn</h4>
                       <a 
-                        href="https://www.linkedin.com/in/divyanshuvats-/"
+                        href="https://www.linkedin.com/in/hermanmagayane/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
@@ -218,7 +218,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-sm text-gray-400 font-medium mb-1">GitHub</h4>
                       <a 
-                        href="https://github.com/divyanshuvats10"
+                        href="https://github.com/Herman-01"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
