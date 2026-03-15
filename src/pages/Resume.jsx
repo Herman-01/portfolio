@@ -16,7 +16,7 @@ const Resume = () => {
         location: "Punjab, India",
         degree: "Bachelor of Technology - Computer Science and Engineering",
         period: "Since August 2022",
-        details: "CGPA: 8.16*"
+        details: "CGPA: 7.3"
       },
       {
         institution: "St Theresa's Convent School",
