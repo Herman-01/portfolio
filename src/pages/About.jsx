@@ -42,7 +42,7 @@ const About = () => {
 
             {/* Quick stats */}
             <div className="w-full bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 space-y-4 border border-slate-700">
-              <h3 className="text-xl font-medium text-gray-200 mb-4">Quick </h3>
+              <h3 className="text-xl font-medium text-gray-200 mb-4">Quick Facts</h3>
               
               <div className="flex items-center space-x-3">
                 <div className="bg-indigo-900/50 p-2 rounded-lg">
