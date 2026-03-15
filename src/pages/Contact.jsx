@@ -174,7 +174,7 @@ const Contact = () => {
                         href="mailto:divyanshuvats1006@gmail.com" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        divyanshuvats1006@gmail.com
+                        magayaneherman@gmail.com
                       </a>
                     </div>
                   </div>
@@ -189,7 +189,7 @@ const Contact = () => {
                         href="tel:+918278478622" 
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        +91-8278478622
+                        +91-8437173767
                       </a>
                     </div>
                   </div>
@@ -206,7 +206,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        linkedin.com/in/divyanshuvats-
+                        linkedin.com/in/hermanmagayane
                       </a>
                     </div>
                   </div>
@@ -223,7 +223,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-indigo-300 hover:text-indigo-200 transition-colors"
                       >
-                        github.com/divyanshuvats10
+                        github.com/Herman-01
                       </a>
                     </div>
                   </div>
