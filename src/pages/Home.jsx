@@ -16,11 +16,7 @@ const Home = () => {
     "MySQL",
   ];
 
-  const interests = [
-    { name: "Web Development", icon: "💻" },
-    { name: "Reading", icon: "📚" },
-    { name: "Problem Solving", icon: "🧩" },
-  ];
+  
 
   useEffect(() => {
     setIsLoaded(true);
@@ -178,24 +174,8 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="w-full bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700">
-                  <h3 className="text-xl font-medium text-gray-200 mb-4">
-                    When I'm Not Coding
-                  </h3>
-
-                  <div className="grid grid-cols-1 gap-4">
-                    {interests.map((interest, index) => (
-                      <div
-                        key={index}
-                        className="bg-slate-700/50 rounded-lg p-4 flex items-center hover:bg-indigo-900/30 transition-colors duration-300"
-                      >
-                        <span className="text-3xl mr-4">{interest.icon}</span>
-                        <span className="text-gray-200">{interest.name}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+                
+            
 
               <div className="lg:col-span-3 space-y-8">
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
