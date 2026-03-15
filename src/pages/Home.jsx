@@ -101,7 +101,7 @@ const Home = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/hermanmagaya"
+                href="https://linkedin.com/in/hermanmagayane"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
