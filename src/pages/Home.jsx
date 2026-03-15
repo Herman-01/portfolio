@@ -16,8 +16,6 @@ const Home = () => {
     "MySQL",
   ];
 
-  
-
   useEffect(() => {
     setIsLoaded(true);
   }, []);
@@ -41,7 +39,7 @@ const Home = () => {
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden relative z-10 hover:scale-105 transition-transform duration-300 shadow-lg border border-indigo-400/30">
                 <img
                   src={profileImage}
-                  alt="Herman Magayane"
+                  alt="Herman Magaya"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -94,7 +92,7 @@ const Home = () => {
 
             <div className="flex justify-center gap-6 mb-16">
               <a
-                href="https://github.com/herman"
+                href="https://github.com/Herman-01"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -103,7 +101,7 @@ const Home = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/hermanmagayane"
+                href="https://linkedin.com/in/hermanmagaya"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -173,9 +171,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
-                
-            
+              </div>
 
               <div className="lg:col-span-3 space-y-8">
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
