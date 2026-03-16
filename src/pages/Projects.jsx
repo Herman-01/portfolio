@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Real Time Weather App",
-      image: "/projects/weather.jpg",
+      image: "/projects/weatherapp.png",
       description:
         "Developed a real-time weather application that provides users with up-to-date weather information based on their current location or selected cities.",
       technologies: ["HTML", "CSS", "JavaScript", "React.js"],
@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "Art and Assets E-commerce Website",
-      image: "/projects/ecommerce.jpg",
+      image: "/projects/art&asset.png",
       description:
         "Developed an e-commerce platform for selling artwork, designed art pieces, and second-hand commodities with product browsing, ordering, and digital payment features.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Node.js"],
@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: "Network Setup and Topology Design",
-      image: "/projects/network.jpg",
+      image: "/projects/networkingsystem.png",
       description:
         "Designed a network infrastructure for a 12-floor building including IP addressing schemes, subnetting, and proper device placement using Cisco Packet Tracer.",
       technologies: ["Cisco Packet Tracer", "Networking", "Subnetting"],
