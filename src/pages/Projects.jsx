@@ -5,31 +5,31 @@ const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const projects = [
-    {
-      title: "Real Time Weather App",
-      image: "/projects/weatherapp.png",
-      description:
-        "Developed a real-time weather application that provides users with up-to-date weather information based on their current location or selected cities.",
-      technologies: ["HTML", "CSS", "JavaScript", "React.js"],
-      category: "Web",
-    },
-    {
-      title: "Art and Assets E-commerce Website",
-      image: "/projects/art&asset.png",
-      description:
-        "Developed an e-commerce platform for selling artwork, designed art pieces, and second-hand commodities with product browsing, ordering, and digital payment features.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Node.js"],
-      category: "Web",
-    },
-    {
-      title: "Network Setup and Topology Design",
-      image: "/projects/networkingsystem.png",
-      description:
-        "Designed a network infrastructure for a 12-floor building including IP addressing schemes, subnetting, and proper device placement using Cisco Packet Tracer.",
-      technologies: ["Cisco Packet Tracer", "Networking", "Subnetting"],
-      category: "Networking",
-    },
-  ];
+  {
+    title: "Real Time Weather App",
+    image: "/images/weatherapp.png",
+    description:
+      "Developed a real-time weather application that provides users with up-to-date weather information based on their current location or selected cities.",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js"],
+    category: "Web",
+  },
+  {
+    title: "Art and Assets E-commerce Website",
+    image: "/images/art&asset.png",
+    description:
+      "Developed an e-commerce platform for selling artwork, designed art pieces, and second-hand commodities with product browsing, ordering, and digital payment features.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Node.js"],
+    category: "Web",
+  },
+  {
+    title: "Network Setup and Topology Design",
+    image: "/images/networkingsystem.png",
+    description:
+      "Designed a network infrastructure for a 12-floor building including IP addressing schemes, subnetting, and proper device placement using Cisco Packet Tracer.",
+    technologies: ["Cisco Packet Tracer", "Networking", "Subnetting"],
+    category: "Networking",
+  },
+];
 
   const filters = ["All", "Web", "Networking"];
 
