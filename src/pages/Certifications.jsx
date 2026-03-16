@@ -46,7 +46,7 @@ const Certifications = () => {
       <div className={`max-w-6xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400 inline-block">
-            Certifications
+            Certificates
           </h1>
           <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-2" />
           <p className="text-gray-300 mt-4 text-lg max-w-2xl mx-auto">
