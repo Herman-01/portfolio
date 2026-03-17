@@ -91,8 +91,8 @@ const Resume = () => {
           </div>
 
           {/* Download Buttons */}
-          <div className="mt-12 text-center space-y-4">
-            {/* Resume */}
+          <div className="mt-12 flex justify-center gap-6 flex-wrap">
+            {/* CV */}
             <a
               href="/Herman CV final3.pdf"
               download
@@ -102,9 +102,9 @@ const Resume = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
 
-            {/* CV */}
+            {/* Resume */}
             <a
-              href="/Resume Herman1.pdf" // 👈 change this if your CV file name is different
+              href="/Resume Herman1.pdf"
               download
               className="group relative inline-flex items-center gap-3 px-8 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium text-lg shadow-lg hover:shadow-purple-500/30 transition duration-300 overflow-hidden"
             >
