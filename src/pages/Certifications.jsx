@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import weatherAppCertificate from "../assets/certificates/weather-app-certificate.png";
-import buildGenerativeAiNoCode from "../assets/certificates/build-generative-ai-no-code.png";
-import masterGenerativeAiTools from "../assets/certificates/master-generative-ai-tools.png";
+import weatherAppCertificate from "../assets/IBM.png";
+import buildGenerativeAiNoCode from "../assets/Build.png";
+import masterGenerativeAiTools from "../assets/Master.png";
 
 const Certifications = () => {
   const [flippedCard, setFlippedCard] = useState(null);
