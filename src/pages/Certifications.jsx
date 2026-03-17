@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+import weatherAppCertificate from "../assets/certificates/weather-app-certificate.png";
+import buildGenerativeAiNoCode from "../assets/certificates/build-generative-ai-no-code.png";
+import masterGenerativeAiTools from "../assets/certificates/master-generative-ai-tools.png";
+
 const Certifications = () => {
   const [flippedCard, setFlippedCard] = useState(null);
 
@@ -11,30 +15,30 @@ const Certifications = () => {
         "Completed an industry-oriented training on Full Stack, MERN Stack, and its ecosystem.",
       issuer: "IBM",
       date: "Jun 2025 - Jul 2025",
-      image: "/certificates/weather-app-certificate.png", // replace with your actual image path
-      link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing", // already updated by you
+      image: weatherAppCertificate,
+      link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing",
       skills: ["MERN Stack", "Full Stack Development", "React", "Node.js", "MongoDB"],
     },
     {
       id: 2,
       title: "Build Generative AI Apps and Solutions with No-Code Tools",
       description:
-        "Completed the certification focused on building generative AI apps and solutions using no-code",
+        "Completed the certification focused on building generative AI apps and solutions using no-code.",
       issuer: "Udemy",
       date: "Aug 18, 2025",
-      image: "/certificates/build-generative-ai-no-code.png", // replace with your actual image path
-      link: "https://drive.google.com/file/d/1ZpA1f0EYt-7SIDAcEVGjGLGKS_2hPqEC/view?usp=sharing", // already updated by you
+      image: buildGenerativeAiNoCode,
+      link: "https://drive.google.com/file/d/1ZpA1f0EYt-7SIDAcEVGjGLGKS_2hPqEC/view?usp=sharing",
       skills: ["Generative AI", "No-Code Tools", "AI Apps", "Prompting", "Automation"],
     },
     {
       id: 3,
       title: "Master Generative AI & Generative AI Tools",
       description:
-        "Completed advanced training on Generative AI tools including ChatGPT",
+        "Completed advanced training on Generative AI tools including ChatGPT.",
       issuer: "Udemy",
       date: "Aug 22, 2025",
-      image: "/certificates/master-generative-ai-tools.png", // replace with your actual image path
-      link: "https://drive.google.com/file/d/1PGKQtPpRqP1cb55GMUF7cfVnw-RjTHpy/view?usp=sharing", // already updated by you
+      image: masterGenerativeAiTools,
+      link: "https://drive.google.com/file/d/1PGKQtPpRqP1cb55GMUF7cfVnw-RjTHpy/view?usp=sharing",
       skills: ["ChatGPT", "Generative AI", "AI Tools", "Prompt Engineering", "Productivity"],
     },
   ];
