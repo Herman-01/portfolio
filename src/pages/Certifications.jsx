@@ -6,35 +6,35 @@ const Certifications = () => {
   const certifications = [
     {
       id: 1,
-      title: "Weather App Project Completion",
+      title: "IBM Training",
       description:
-        "Successfully completed an industry-oriented Weather App project using Full Stack, MERN Stack, and its ecosystem.",
+        "Completed an industry-oriented training on Full Stack, MERN Stack, and its ecosystem.",
       issuer: "Allsoft Solutions / IBM Business Partner",
       date: "Jun 2025 - Jul 2025",
       image: "/certificates/weather-app-certificate.png", // replace with your actual image path
-      link: "#", // already updated by you
+      link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing", // already updated by you
       skills: ["MERN Stack", "Full Stack Development", "React", "Node.js", "MongoDB"],
     },
     {
       id: 2,
       title: "Build Generative AI Apps and Solutions with No-Code Tools",
       description:
-        "Completed a Udemy certification focused on building generative AI apps and solutions using no-code tools and workflows.",
+        "Completed the certification focused on building generative AI apps and solutions using no-code tools and workflows.",
       issuer: "Udemy",
       date: "Aug 18, 2025",
       image: "/certificates/build-generative-ai-no-code.png", // replace with your actual image path
-      link: "#", // already updated by you
+      link: "https://drive.google.com/file/d/1ZpA1f0EYt-7SIDAcEVGjGLGKS_2hPqEC/view?usp=sharing", // already updated by you
       skills: ["Generative AI", "No-Code Tools", "AI Apps", "Prompting", "Automation"],
     },
     {
       id: 3,
       title: "Master Generative AI & Generative AI Tools (ChatGPT & more)",
       description:
-        "Completed advanced training on Generative AI tools including ChatGPT and other AI productivity platforms.",
+        "Completed advanced training on Generative AI tools including ChatGPT",
       issuer: "Udemy",
       date: "Aug 22, 2025",
       image: "/certificates/master-generative-ai-tools.png", // replace with your actual image path
-      link: "#", // already updated by you
+      link: "https://drive.google.com/file/d/1PGKQtPpRqP1cb55GMUF7cfVnw-RjTHpy/view?usp=sharing", // already updated by you
       skills: ["ChatGPT", "Generative AI", "AI Tools", "Prompt Engineering", "Productivity"],
     },
   ];
