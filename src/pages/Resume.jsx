@@ -33,6 +33,7 @@ const Resume = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white overflow-hidden relative pt-24 pb-16 px-6">
+      {/* Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 opacity-10 rounded-full blur-3xl -z-10"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 opacity-10 rounded-full blur-3xl -z-10"></div>
@@ -45,6 +46,7 @@ const Resume = () => {
             isLoaded ? "opacity-100 transform-none" : "opacity-0 translate-y-8"
           }`}
         >
+          {/* Title */}
           <h2 className="text-4xl md:text-5xl font-bold mb-2 text-center">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400">
               My Resume
@@ -59,6 +61,7 @@ const Resume = () => {
             My educational background and resume download.
           </p>
 
+          {/* Education */}
           <div className="mt-8 space-y-8">
             {education.map((item, index) => (
               <div
@@ -87,14 +90,26 @@ const Resume = () => {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          {/* Download Buttons */}
+          <div className="mt-12 text-center space-y-4">
+            {/* Resume */}
             <a
               href="/Herman CV final3.pdf"
               download
               className="group relative inline-flex items-center gap-3 px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium text-lg shadow-lg hover:shadow-indigo-500/30 transition duration-300 overflow-hidden"
             >
-              <span className="relative z-10">📄 Download Resume</span>
+              <span className="relative z-10">📄 Download CV</span>
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+
+            {/* CV */}
+            <a
+              href="/Resume Herman1.pdf" // 👈 change this if your CV file name is different
+              download
+              className="group relative inline-flex items-center gap-3 px-8 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium text-lg shadow-lg hover:shadow-purple-500/30 transition duration-300 overflow-hidden"
+            >
+              <span className="relative z-10">📄 Download Resume</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
           </div>
         </div>
