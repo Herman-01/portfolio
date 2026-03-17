@@ -1,109 +1,110 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Certifications = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const [hoveredCert, setHoveredCert] = useState(null);
+  const [flippedCard, setFlippedCard] = useState(null);
 
   const certifications = [
     {
-      title: "Cloud Computing",
-      issuer: "NPTEL",
-      date: "October 2024",
-      description: "Comprehensive training on cloud computing fundamentals, services, deployment models, and best practices for cloud security and management.",
-      skills: ["AWS", "Cloud Architecture", "Virtualization"],
-      link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing",
-      image: "/images/cloud-computing.png",
+      id: 1,
+      title: "Weather App Project Completion",
+      description:
+        "Successfully completed an industry-oriented Weather App project using Full Stack, MERN Stack, and its ecosystem.",
+      issuer: "Allsoft Solutions / IBM Business Partner",
+      date: "Jun 2025 - Jul 2025",
+      image: "/certificates/weather-app-certificate.png", // replace with your actual image path
+      link: "#", // already updated by you
+      skills: ["MERN Stack", "Full Stack Development", "React", "Node.js", "MongoDB"],
     },
     {
-      title: "Server-side JavaScript with Node.js",
-      issuer: "Coursera",
-      date: "May 2024",
-      description: "Advanced course covering Node.js concepts, Express framework, RESTful API development, and server-side rendering.",
-      skills: ["Node.js", "Express", "API Design", "MongoDB"],
-      link: "https://drive.google.com/file/d/1ZpA1f0EYt-7SIDAcEVGjGLGKS_2hPqEC/view?usp=sharing",
-      image: "/images/nodejs-cert.png",
+      id: 2,
+      title: "Build Generative AI Apps and Solutions with No-Code Tools",
+      description:
+        "Completed a Udemy certification focused on building generative AI apps and solutions using no-code tools and workflows.",
+      issuer: "Udemy",
+      date: "Aug 18, 2025",
+      image: "/certificates/build-generative-ai-no-code.png", // replace with your actual image path
+      link: "#", // already updated by you
+      skills: ["Generative AI", "No-Code Tools", "AI Apps", "Prompting", "Automation"],
     },
     {
-      title: "HTML, CSS, and Javascript for Web Developers",
-      issuer: "Coursera",
-      date: "May 2024",
-      description: "Full-stack web development fundamentals focusing on responsive design, modern CSS techniques, and dynamic DOM manipulation with JavaScript.",
-      skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      link: "https://drive.google.com/file/d/1PGKQtPpRqP1cb55GMUF7cfVnw-RjTHpy/view?usp=sharing",
-      image: "/images/html-css-js-cert.png",
+      id: 3,
+      title: "Master Generative AI & Generative AI Tools (ChatGPT & more)",
+      description:
+        "Completed advanced training on Generative AI tools including ChatGPT and other AI productivity platforms.",
+      issuer: "Udemy",
+      date: "Aug 22, 2025",
+      image: "/certificates/master-generative-ai-tools.png", // replace with your actual image path
+      link: "#", // already updated by you
+      skills: ["ChatGPT", "Generative AI", "AI Tools", "Prompt Engineering", "Productivity"],
     },
   ];
 
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
   return (
-    <section className="min-h-screen bg-slate-900 text-white pt-24 pb-16 px-6 relative overflow-hidden">
-      <div className="absolute top-40 right-10 w-72 h-72 bg-blue-600 opacity-10 rounded-full blur-3xl -z-10" />
-      <div className="absolute bottom-20 left-10 w-80 h-80 bg-purple-600 opacity-10 rounded-full blur-3xl -z-10" />
+    <section id="certifications" className="py-20 bg-slate-950 text-white">
+      <div className="max-w-6xl mx-auto px-6">
+        <h1 className="text-4xl font-bold text-center mb-4">Certifications</h1>
+        <p className="text-gray-400 text-center mb-12">
+          Professional certifications and project completion achievements.
+        </p>
 
-      <div className={`max-w-6xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400 inline-block">
-            Certificates
-          </h1>
-          <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-2" />
-          <p className="text-gray-300 mt-4 text-lg max-w-2xl mx-auto">
-            Professional credentials that validate my technical expertise and continuous learning journey.
-          </p>
-        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {certifications.map((cert, index) => {
+            const isFlipped = flippedCard === index;
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {certifications.map((cert, index) => (
-            <div
-              key={index}
-              className="relative"
-              onMouseEnter={() => setHoveredCert(index)}
-              onMouseLeave={() => setHoveredCert(null)}
-            >
+            return (
               <div
-                className="relative w-full h-106"
-                style={{
-                  transformStyle: "preserve-3d",
-                  transition: "transform 0.8s",
-                  transform: hoveredCert === index ? "rotateY(180deg)" : "rotateY(0deg)",
-                }}
+                key={cert.id}
+                className="group [perspective:1200px]"
+                onMouseEnter={() => setFlippedCard(index)}
+                onMouseLeave={() => setFlippedCard(null)}
               >
-                {/* Front */}
                 <div
-                  className="absolute inset-0 backface-hidden"
-                  style={{ backfaceVisibility: "hidden" }}
+                  className="relative h-[420px] w-full duration-700"
+                  style={{
+                    transformStyle: "preserve-3d",
+                    transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
+                  }}
                 >
-                  <div className="bg-slate-800/70 rounded-xl border border-slate-700 hover:border-indigo-500 h-full flex flex-col overflow-hidden">
-                    <div className="relative h-48">
-                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60 z-10" />
-                      <img src={cert.image} alt={cert.title} className="w-full h-full object-cover" />
-                      <div className="absolute top-4 left-4 bg-indigo-600/90 px-3 py-1 rounded-full text-xs font-medium z-20">
-                        {cert.issuer}
-                      </div>
-                      <div className="absolute bottom-4 right-4 text-white text-sm z-20">{cert.date}</div>
-                    </div>
-                    <div className="p-6 flex-1 flex flex-col">
-                      <h2 className="text-xl font-semibold text-blue-400 mb-3 line-clamp-2">{cert.title}</h2>
+                  {/* Front */}
+                  <div
+                    className="absolute inset-0 rounded-xl overflow-hidden border border-slate-700 bg-slate-900 shadow-lg"
+                    style={{ backfaceVisibility: "hidden" }}
+                  >
+                    <img
+                      src={cert.image}
+                      alt={cert.title}
+                      className="w-full h-56 object-cover"
+                    />
+
+                    <div className="p-5 flex flex-col h-[calc(100%-14rem)]">
+                      <h2 className="text-xl font-semibold text-blue-400 mb-3 line-clamp-2">
+                        {cert.title}
+                      </h2>
+
                       <p className="text-gray-300 text-sm mb-4 flex-1">
-                        {cert.description.length > 100 ? `${cert.description.substring(0, 100)}...` : cert.description}
+                        {cert.description.length > 100
+                          ? `${cert.description.substring(0, 100)}...`
+                          : cert.description}
                       </p>
-                      <div className="flex justify-between items-center">
+
+                      <div className="flex justify-between items-center mt-auto">
                         <span className="text-gray-400 text-sm">{cert.issuer}</span>
                         <span className="text-indigo-400 text-sm">{cert.date}</span>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Back */}
-                <div
-                  className="absolute inset-0 backface-hidden"
-                  style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
-                >
-                  <div className="bg-gradient-to-br from-indigo-900/90 to-slate-800/90 rounded-xl border border-indigo-700 h-full flex flex-col p-6">
-                    <h2 className="text-xl font-semibold text-white mb-4">{cert.title}</h2>
+                  {/* Back */}
+                  <div
+                    className="absolute inset-0 rounded-xl overflow-hidden border border-indigo-700 bg-gradient-to-br from-indigo-900/90 to-slate-800/90 shadow-lg p-6 flex flex-col"
+                    style={{
+                      backfaceVisibility: "hidden",
+                      transform: "rotateY(180deg)",
+                    }}
+                  >
+                    <h2 className="text-xl font-semibold text-white mb-4">
+                      {cert.title}
+                    </h2>
 
                     <div className="mb-4">
                       <div className="flex items-center mb-1">
@@ -126,9 +127,13 @@ const Certifications = () => {
                         <span className="text-indigo-300 mr-2">🔍</span>
                         <span className="text-gray-300">Skills:</span>
                       </div>
+
                       <div className="flex flex-wrap gap-2 ml-6 mt-2">
                         {cert.skills.map((skill, idx) => (
-                          <span key={idx} className="px-2 py-1 bg-indigo-800/50 text-indigo-200 text-xs rounded-md">
+                          <span
+                            key={idx}
+                            className="px-2 py-1 bg-indigo-800/50 text-indigo-200 text-xs rounded-md"
+                          >
                             {skill}
                           </span>
                         ))}
@@ -145,18 +150,14 @@ const Certifications = () => {
                     </a>
                   </div>
                 </div>
-              </div>
 
-              {/* Always visible instruction */}
-              <div className="mt-2 text-center text-xs text-gray-400">
-                Hover to view details
+                <div className="mt-2 text-center text-xs text-gray-400">
+                  Hover to view details
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
-
-        {/* Keep the rest: Education + Quote */}
-        {/* ... */}
       </div>
     </section>
   );
