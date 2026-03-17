@@ -19,7 +19,7 @@ const Certifications = () => {
       id: 2,
       title: "Build Generative AI Apps and Solutions with No-Code Tools",
       description:
-        "Completed the certification focused on building generative AI apps and solutions using no-code tools and workflows.",
+        "Completed the certification focused on building generative AI apps and solutions using no-code",
       issuer: "Udemy",
       date: "Aug 18, 2025",
       image: "/certificates/build-generative-ai-no-code.png", // replace with your actual image path
