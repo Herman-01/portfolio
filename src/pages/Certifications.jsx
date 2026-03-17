@@ -11,7 +11,7 @@ const Certifications = () => {
       date: "October 2024",
       description: "Comprehensive training on cloud computing fundamentals, services, deployment models, and best practices for cloud security and management.",
       skills: ["AWS", "Cloud Architecture", "Virtualization"],
-      link: "https://drive.google.com/file/d/16-AbF58Sgf0ddUGQKX3P4_X7CLDE7zWc/view?usp=sharing",
+      link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing",
       image: "/images/cloud-computing.png",
     },
     {
@@ -20,7 +20,7 @@ const Certifications = () => {
       date: "May 2024",
       description: "Advanced course covering Node.js concepts, Express framework, RESTful API development, and server-side rendering.",
       skills: ["Node.js", "Express", "API Design", "MongoDB"],
-      link: "https://www.coursera.org/account/accomplishments/verify/MBYUPQLZHF7Y",
+      link: "https://drive.google.com/file/d/1ZpA1f0EYt-7SIDAcEVGjGLGKS_2hPqEC/view?usp=sharing",
       image: "/images/nodejs-cert.png",
     },
     {
@@ -29,7 +29,7 @@ const Certifications = () => {
       date: "May 2024",
       description: "Full-stack web development fundamentals focusing on responsive design, modern CSS techniques, and dynamic DOM manipulation with JavaScript.",
       skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      link: "https://www.coursera.org/account/accomplishments/verify/JC3Z37ALM5YQ",
+      link: "https://drive.google.com/file/d/1PGKQtPpRqP1cb55GMUF7cfVnw-RjTHpy/view?usp=sharing",
       image: "/images/html-css-js-cert.png",
     },
   ];
