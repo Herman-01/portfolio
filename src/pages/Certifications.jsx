@@ -9,7 +9,7 @@ const Certifications = () => {
       title: "IBM Training",
       description:
         "Completed an industry-oriented training on Full Stack, MERN Stack, and its ecosystem.",
-      issuer: "Allsoft Solutions / IBM Business Partner",
+      issuer: "IBM",
       date: "Jun 2025 - Jul 2025",
       image: "/certificates/weather-app-certificate.png", // replace with your actual image path
       link: "https://drive.google.com/file/d/14JSWgY3ncxqIRs0jsuMSW8cM6yG9uxDp/view?usp=sharing", // already updated by you
@@ -28,7 +28,7 @@ const Certifications = () => {
     },
     {
       id: 3,
-      title: "Master Generative AI & Generative AI Tools (ChatGPT & more)",
+      title: "Master Generative AI & Generative AI Tools",
       description:
         "Completed advanced training on Generative AI tools including ChatGPT",
       issuer: "Udemy",
