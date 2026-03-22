@@ -180,29 +180,16 @@ const Home = () => {
                   </h3>
 
                   <p className="text-lg mb-4 leading-relaxed text-gray-200">
-                    Hello! I'm{" "}
-                    <span className="font-semibold text-purple-400">
-                      Herman Magayane
-                    </span>
-                    , a software developer with strong interest and experience
-                    in web development and software creation.
-                  </p>
+  Hello! I’m{" "}
+  <span className="font-semibold text-purple-400">
+    Herman Magayane
+  </span>
+  , a software developer driven by curiosity and a passion for creating meaningful digital experiences.
+</p>
 
-                  <p className="text-lg mb-4 leading-relaxed text-gray-300">
-                    I work with programming languages such as C++, Python, C,
-                    Java, and JavaScript, along with web technologies like HTML,
-                    CSS, React.js, and MySQL to build responsive and
-                    user-focused applications.
-                  </p>
-
-                  <p className="text-lg leading-relaxed text-gray-300">
-                    My work includes projects such as a real-time weather
-                    application, an art and assets e-commerce website, and a
-                    network setup and topology design project. I enjoy building
-                    practical solutions, improving user experiences, and
-                    continuously strengthening both my technical and
-                    problem-solving skills.
-                  </p>
+<p className="text-lg leading-relaxed text-gray-300">
+  What started as an interest in technology has grown into a journey of continuous learning, problem-solving, and building solutions that make an impact. I enjoy turning ideas into reality and constantly pushing myself to grow both creatively and technically.
+</p>
                 </div>
 
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
