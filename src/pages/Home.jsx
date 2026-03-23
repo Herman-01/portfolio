@@ -176,7 +176,7 @@ const Home = () => {
               <div className="lg:col-span-3 space-y-8">
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
                   <h3 className="text-2xl font-semibold text-blue-400 mb-4">
-                    My Journey
+                    Introduction
                   </h3>
 
                   <p className="text-lg mb-4 leading-relaxed text-gray-200">
